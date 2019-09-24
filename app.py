@@ -1,7 +1,10 @@
+# CartolaBot é um BOT desenvolvido em Python que coleta e imprime traz algumas
+# informações de times do game CartolaFC baseado no input do usuário.
+
 # Importando as libs
-# Instale
+# Instale bibliteca PIL manualmente (http://www.pythonware.com/products/pil/)
 import requests
-import Image
+from PIL import Image
 from io import BytesIO
 
 # Definição da url da API e dos Paths para extração dos dados
